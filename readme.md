@@ -28,3 +28,9 @@ yarn add --dev hardhat-shorthand
    cmd 运行 yarn hardhat deploy
 2. Random IPFS NFT
 3. Dynamic SVG NFT
+
+# Pinata API Node SDK
+
+```
+
+```
