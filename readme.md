@@ -24,6 +24,31 @@ yarn hardhat compile
 
 部署
 yarn hardhat deploy
+
+默认使用hardhat网络(即本地)
+
+yarn hardhat deploy --network 网络名 --tags tag名
+网络名是hardhat.config.js中networks属性里面的键名意味着这次往这个网络里面配置的属性进行部署
+tag名是执行部署哪些文件
+比如
+module.exports.tags = ["all", "basicnft", "main"]
+main代表所有有main的都会执行
+
+例子
+我们把这个例子中的contract部署到sepolia测试网络
+yarn hardhat deploy --network sepolia --tags main
+完成后可以在
+etherscan中查看到
+(如果是部署的测试网络，就到对应的测试网络去看)
+(比如这里是sepolia 就到 sepolia.etherscan.io)
+看到了表示部署已经成功了
+接下来就可以使用了
+```
+
+# ipfs 地址使用
+
+```
+https://docs.ipfs.tech/how-to/address-ipfs-on-web/#dweb-addressing-in-brief
 ```
 
 # nft 制作

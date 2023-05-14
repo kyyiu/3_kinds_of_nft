@@ -96,3 +96,5 @@ async function handleTokenUris() {
 }
 // test
 // handleTokenUris()
+
+module.exports.tags = ["all", "randomipfs", "main"]
