@@ -27,7 +27,9 @@ yarn add --dev hardhat-shorthand
    代码参考 contracts\BasicNFT.sol 和 deploy\basicNft.js
    cmd 运行 yarn hardhat deploy
 2. Random IPFS NFT
+   随机 nft
 3. Dynamic SVG NFT
+   存储在 contract 中的 nft
 
 # Pinata API Node SDK
 
