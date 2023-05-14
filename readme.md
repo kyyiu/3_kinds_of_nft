@@ -18,6 +18,12 @@ yarn add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers@5.5.4 
 ```
 yarn add --dev hardhat-shorthand
 .\node_modules\.bin\hh compile
+
+or
+yarn hardhat compile
+
+部署
+yarn hardhat deploy
 ```
 
 # nft 制作
