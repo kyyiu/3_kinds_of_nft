@@ -32,5 +32,5 @@ yarn add --dev hardhat-shorthand
 # Pinata API Node SDK
 
 ```
-
+https://www.pinata.cloud/
 ```
